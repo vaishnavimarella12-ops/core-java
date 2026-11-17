@@ -10,3 +10,21 @@ CONDITIONAL                LOOPING               JUMPING
 3)Else If Ladder          3)Do While            3)Return
 4)Nested If
 5)Switch
+IF:-                                     IF ELSE:                   ELSE IF LADDER                      NESTED IF                         SWITCH
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax:                                  Syntax:                      Syntax:                            Syntax:                         Syntax:
+if condition {                            if condition {              if condition1 {                    if (condition1) {               switch (expression) {
+          //Block of Code                        //Block of Code               //Block of code              if (condition2) {                 case value1:
+      }                                     }                               }                                  //Block of code                 // Statements
+                                        else {                        else if condition2 {                    }                                break;
+                                                 //Block of Code               //Block of code               else{                             case value2:
+                                            }                                }                                 //Block of code                 // Statements
+                                                                      else if condition3 {                     }                               break;
+                                                                               //Block of code             }                                   case value3:
+                                                                            }                            else {                                 // Statements
+                                                                      else if condition4 {                    //Block of code                    break;  
+                                                                               //Block of code             }                                   default:
+                                                                            }                                                                  //Statements
+                                                                      else {                                                                  }
+                                                                               //Block of code        
+                                                                           }
