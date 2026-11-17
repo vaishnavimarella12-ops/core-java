@@ -27,4 +27,14 @@ if condition {                            if condition {              if conditi
                                                                             }                                                                  //Statements
                                                                       else {                                                                  }
                                                                                //Block of code        
-                                                                           }
+                                                                          }
+
+
+LOOPING
+------------------------------------
+FOR                                                                 WHILE:                                   DO WHILE:
+FOR(INTIALIZATION;CONDITION;INCREMENT OR DECREMENT);                while(condition){                    do{
+                                                                          //Statement                      initalize;
+                                                                       }                                   //Statements
+                                                                                                           ++ (or) --                 
+                                                                                                         }while(condition);
