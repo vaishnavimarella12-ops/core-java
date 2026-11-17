@@ -1,0 +1,12 @@
+CONTROL STATEMENTS
+------------------
+==>Divided into 3 statements
+                 CONTROL STATEMENTS
+==========================================================
+CONDITIONAL                LOOPING               JUMPING
+-----------              ------------         ------------
+1)If                      1)for                 1)Continue
+2)If Else                 2)While               2)Break
+3)Else If Ladder          3)Do While            3)Return
+4)Nested If
+5)Switch
