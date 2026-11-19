@@ -49,3 +49,54 @@ str="Venu54@gmail.com"
 =>matches() ->str="1      10"
 ->str.match([0-9])
 =>formatted() //checks the input is in correct format or not
+    CLASS:
+==============
+A class in Java is a blueprint or template used to create objects. It defines the properties and behaviours of an object using variables and methods. For example, Student is a class that can contain student details like ID, name and methods like study or display."
+The commonly discussed types are:
+-----------------------------------
+1. Concrete class
+2. Abstract class
+3. Final class
+4. Static nested class
+5. Inner class
+6. Anonymous inner class
+7. Local inner class
+     ==>What is a constructor?
+
+A constructor is a special member used to initialize objects. It has the same name as the class and no return type.
+    ==>What are the types of constructors?
+- Default constructor
+- No-argument constructor
+- Parameterized constructor
+Access modifier:
+----------------
+Private : Accessible only within the same class
+Default
+public
+protected:Accessible within the same package
+Main Pillars of OOPs in Java
+
+OOPs stands for Object-Oriented Programming System.
+Java has four main pillars of OOPs:
+1. Encapsulation
+2. Inheritance
+3. Polymorphism
+4. Abstraction
+
+Functions in Java
+A function in Java is a block of code that performs a specific task whenever it is called.
+*No arguments and no return value
+*Arguments and no return value
+*No arguments and return value
+*Arguments and return value
+class Thishi {
+    int Thishitha(int a, int b) {
+        return a * b;
+    }
+    public static void main(String[] args) {
+        Thishi obj = new Thishi();
+        int result = obj.Thishitha(10, 20);
+        System.out.println("Multiplication = " + result);
+    }
+}
+
