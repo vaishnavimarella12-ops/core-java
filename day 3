@@ -1,0 +1,51 @@
+Extract by index:
+------------------
+.subString()
+.indexof()
+Ex:
+str="venu";
+str.subString(0);
+str.indexof("V");// shows the index of given input:
+   =>Compare
+  ----------------
+.equals()
+.compareTo()
+Ex:
+str.equals(str1) or ("Venu");
+str.compareTo(str1) or("vani1");
+=>Find 
+str="Venu54@gmail.com"
+1.contains() ->Str.contains("@");
+2.startswitch() -> str.startswitch("venu");
+3.endswitch() -> str.endswitch(".com");
+
+Extract by index:
+.subString()
+.indexof()
+Ex:
+str="venu";
+str.subString(0);
+str.indexof("V");// shows the index of given input:
+=>Compare
+.equals()
+.compareTo()
+Ex:
+str.equals(str1) or ("Venu");
+str.compareTo(str1) or("vani1");
+=>Find 
+str="Venu54@gmail.com"
+1.contains() -> str.contains("@");
+2.startswitch() -> str.startswitch("venu");
+3.endswitch() -> str.endswitch(".com");
+=>Transform
+1.trim() ->str.trim()
+2.string() ->str.string()
+3.concate() ->str.concate("hlo")or (str2)
+4.repeat() ->str.repeat(3)
+=>replace
+1.replace()
+
+  =>toCharArray ->char[] venu="ven" toCharArray();
+=>matches() ->str="1      10"
+->str.match([0-9])
+=>formatted() //checks the input is in correct format or not
